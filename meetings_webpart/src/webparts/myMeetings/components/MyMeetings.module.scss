@@ -1,0 +1,117 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+// extends content within the workbench to the edges of the viewport making the workbench appear larger
+:global {
+  #workbenchPageContent,
+  .CanvasComponent.LCS .CanvasZone {
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .eventContainer {
+    margin-top: 1rem;
+    width: 100%;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 677px) {
+  .eventContainer {
+    margin-top: 1rem;
+    width: 100%;
+    gap: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.teamsSection {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.teamsSection>h1 {
+  font-size: 32px;
+  margin: 0rem;
+}
+
+.teamsSection>p {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #605E5C;
+}
+
+
+.emptyStateContainer {
+  font-family: 'Segoe UI';
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  background-color: #F8F8F8;
+  width: 100%;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #323130;
+  font-size: medium;
+}
+
+.singleEvent {
+  width: auto;
+  height: 100px;
+  background: #F8F8F8;
+  border-radius: 10px;
+  padding: 0rem 1.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.timeSection>img {
+  width: 3.25rem;
+  height: 3.25rem;
+}
+
+
+.timeSection>h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.timeSection>p {
+  font-size: 11px;
+  color: white;
+  margin: 0;
+}
+
+.leftSection {
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.leftSection>h3 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1rem;
+  word-break: keep-all;
+}
+
+.leftSection>p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #4E56BD;
+}

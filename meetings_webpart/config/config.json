@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-meetings-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myMeetings/MyMeetingsWebPart.js",
+          "manifest": "./src/webparts/myMeetings/MyMeetingsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyMeetingsWebPartStrings": "lib/webparts/myMeetings/loc/{locale}.js"
+  }
+}

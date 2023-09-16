@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "meetings-webpart-client-side-solution",
+    "id": "d5f840d4-663d-4e99-afac-5547071a31b3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "meetings-webpart description"
+      },
+      "longDescription": {
+        "default": "meetings-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "meetings-webpart Feature",
+        "description": "The feature that activates elements of the meetings-webpart solution.",
+        "id": "8e257ae0-2e32-44cd-b115-5e0c757d1380",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/meetings-webpart.sppkg"
+  }
+}
