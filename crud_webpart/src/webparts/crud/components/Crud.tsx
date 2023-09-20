@@ -226,7 +226,7 @@ const Crud = (props: ICrudProps): React.ReactElement => {
           </Dialog>
         </div>
         <div>
-          <PrimaryButton text='Add Quote' />
+          <PrimaryButton text='Add Quote' onClick={()=>setIsAddHidden(false)}/>
         </div>
         <Dialog
           hidden={isAddHidden}
